@@ -1,0 +1,26 @@
+anaconda-client==1.7.2
+anaconda-navigator==1.9.12
+anaconda-project==0.8.3
+conda==4.10.1
+conda-build==3.18.11
+docutils==0.16
+docx2txt==0.8
+dython==0.6.1
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.0.0/en_core_web_lg-3.0.0-py3-none-any.whl
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
+flake8==3.8.3
+flasgger==0.9.5
+Flask==1.1.2
+flatbuffers==1.12
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
+numpy==1.19.5
+scikit-multilearn==0.2.0
+scikit-plot==0.3.7
+scipy==1.4.1
+Scrapy==2.4.1
+seaborn==0.10.1
+spacy==2.2.4
+scikit-multilearn==0.2.0
+scikit-plot==0.3.7
+
