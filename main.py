@@ -114,7 +114,7 @@ if __name__=="__main__":
 
 @app.route("/")
 def base_route():
-    return "Welcome to praxis"
+    return "Welcome to sentiment analysis"
    
 # @app.route("/hello",methods = ['GET'])
 # def hello():
