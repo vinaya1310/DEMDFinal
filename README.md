@@ -12,9 +12,11 @@ I have made a docker image and corresponding dockerfile and requirement file is 
 
 Finally I have deployed my app on GCP and its working absolutely fine!
 
-Here is the final link for deployed app on GCP
-https://sentimentanalysis-m54terajaa-as.a.run.app/apidocs/#/default/get_hello
+I have also added sample screenshot of output in the file "FinalOutput.png"
 
+Here is the final link for deployed app on GCP
+
+https://sentimentanalysis-m54terajaa-as.a.run.app/apidocs/#/default/get_hello
 
 
 
