@@ -6,7 +6,8 @@ import re
 
 app = Flask(__name__)
 Swagger(app)
-
+import nltk
+nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 # Defining dictionary containing all emojis with their meanings.
 emojis = {':)': 'smile', ':-)': 'smile', ';d': 'wink', ':-E': 'vampire', ':(': 'sad', 
@@ -142,6 +143,7 @@ def base_route():
 #     app.run(debug= True , host="127.0.0.1", port=2000)
 
 def predict_using_text(text):
+    vectoriser, LRmodel = load_models()
     df = predict(vectoriser, LRmodel, text)
     return(df.head())
  
@@ -166,7 +168,7 @@ def hello():
     return f"The sentiment is {df1.head()}"
 
 if __name__ == "__main__":
-    app.run(debug= True , host="0.0.0.0", port=80)
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
 
 
 

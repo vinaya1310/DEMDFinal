@@ -15,4 +15,6 @@ seaborn==0.10.1
 spacy==2.2.4
 scikit-multilearn==0.2.0
 scikit-plot==0.3.7
-
+pandas
+nltk
+gunicorn
